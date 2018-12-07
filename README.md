@@ -1,2 +1,16 @@
 # Pyssistant
-Simple voice assistant in Python
+Simple voice assistant in Python for Ubuntu. For russian speakers.
+
+# Requirements
+```pip install pyautogui speech_recognition pyaudio ujson```
+
+# He can
+- Run browser
+- Search film/in youtube/google
+- Close/create/back tab
+- Close program (Ctrl+Q)
+- Kill program by process name
+- Run program by process name
+- Get back (emu. Esc key)
+- Press OK (emu. Enter key)
+- Ctrl+Z/Y
