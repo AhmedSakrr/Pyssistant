@@ -6,7 +6,7 @@ Simple voice assistant in Python for Ubuntu. For russian speakers.
 
 # He can
 - Run browser
-- Search film/in youtube/google
+- Search film/in youtube/google/music
 - Close/create/back tab
 - Close program (Ctrl+Q)
 - Kill program by process name
@@ -14,3 +14,8 @@ Simple voice assistant in Python for Ubuntu. For russian speakers.
 - Get back (emu. Esc key)
 - Press OK (emu. Enter key)
 - Ctrl+Z/Y
+
+# In plans  
+- [ ] Settings in DB
+- - [ ] language
+- - [ ] commands

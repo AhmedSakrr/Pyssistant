@@ -47,6 +47,11 @@ def process(sayed):
         run(_run['браузер'] +
             ' http://gidonline.in/?s=' + query + '&submit=Поиск')
 
+    elif 'найди песню' in sayed:
+        query = split_query(word, 2)
+
+        run(_run['браузер'] + ' https://soundcloud.com/search?q=' + query)
+
     elif search('най(д|т)и в (ютубе|youtube)', sayed):
         query = split_query(word, 3)
 
